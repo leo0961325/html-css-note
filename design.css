@@ -1,0 +1,113 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+*,*:before,:after{
+    box-sizing: border-box;
+}
+
+
+.style2 a {
+    color: whitesmoke;
+    background-color: black;
+
+
+}
+
+.style2 p {
+    font-weight: bold;
+
+}
+.style2 .content{
+    color: red;
+
+}
+
+.box {
+    width: 200px;
+    height: 300px;
+    border:10px brown solid ;
+    padding: 50px;
+    background: black;
+    box-sizing: border-box;
+
+}
+
+
+.wrap { /*父*/
+    width: 200px;
+    height: 150px;
+    background: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header {
+    height: 50px;
+    background: yellow;
+    
+}
+.content {
+    height: 50px;
+    padding: 10px; /*中間內推10px*/
+    background: aqua;
+
+    
+}
+
+.footer {
+    padding-top: 10px;  /*上下各推10px*/
+    padding-bottom: 10px;
+    text-align: center; /*文字置中*/
+    background: pink;
+    }
+
+
+
+

@@ -1,0 +1,55 @@
+
+h1{
+    border-top: 5px solid red;
+    border-bottom: 5px solid yellow;
+    border-left: 5px solid green;
+    border-right: 5px solid blue;
+
+}
+
+h2{
+    color: crimson;
+    font-size: x-large;
+    
+}
+
+a{
+    color:aquamarine;
+    font-size: xx-large;
+
+}
+a:hover{
+    color: salmon;
+    font-style: inherit;
+    font-size: 70px;
+
+}
+a:active{
+    color:black;
+
+
+}
+.style1{
+    color:red;
+}
+.style2{
+    color: seagreen;
+
+}
+
+.word_adjust1{
+    color: sienna; /* 顏色*/
+    font-family: Verdana; /* 設定以前預設的 : 字型*/
+    font-size: 36px; /* 字體大小*/
+    line-height: 1.5; /* 每行間距 - 為大小1.5倍*/
+    text-align: left; /* 文字靠左*/
+    text-indent: 72px; /* 首行縮排:字體兩個字*/
+    text-decoration: underline; /*底線*/
+    letter-spacing: 2px; /*字體間距*/
+
+}
+
+body{
+    margin: 0;
+
+}
